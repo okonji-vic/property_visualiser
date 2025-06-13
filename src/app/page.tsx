@@ -20,6 +20,7 @@ export default function App2() {
     // Use any type for selectedLayout to allow flexibility in the layout object
   const [selectedLayout, setSelectedLayout] = React.useState<Layout | null>(null)
   const { toggleTheme } = useTheme()
+  
 
   return (
     <>
