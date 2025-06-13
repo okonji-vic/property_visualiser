@@ -4,9 +4,9 @@ export const floors = Array.from({ length: 15 }, (_, i) => `Floor ${15 - i}`)
 
 // Tower images mapping
 export const towerImages: Record<string, string> = {
-  "Tower A": "/public/ca720d8d-0111-4841-9fb3-6d8358f29674.jpg",
-  "Tower B": "/public/vertical-shot-white-building-clear-sky.jpg",
-  "Tower C": "/public/view-3d-graphic-building.jpg",
+  "Tower A": "/ca720d8d-0111-4841-9fb3-6d8358f29674.jpg",
+  "Tower B": "/vertical-shot-white-building-clear-sky.jpg",
+  "Tower C": "/view-3d-graphic-building.jpg",
 }
 
 // Floor images mapping
